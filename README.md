@@ -10,6 +10,15 @@ npm run dev
 yarn dev
 ```
 
+## Need to create a .env file with google creds
+FIREBASE_API_KEY=######
+FIREBASE_AUTH_DOMAIN=######
+FIREBASE_DATABASE_URL=######
+FIREBASE_PROJECT_ID=######
+FIREBASE_STORAGE_BUCKET=######
+FIREBASE_MESSAGING_SENDER_ID=######
+FIREBASE_APP_ID=######
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
