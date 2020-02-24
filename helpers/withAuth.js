@@ -17,6 +17,7 @@ const withAuth = (Component) => {
 					this.setState({
 						status: 'SIGNED_IN'
 					});
+					router.push('/twerk');
 				} else {
 					router.push('/');
 				}

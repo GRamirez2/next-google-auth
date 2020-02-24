@@ -36,13 +36,13 @@ function Home() {
 			{/* <Head title="Home" />
 			<Nav /> */}
 			<div className="hero">
-				<h1 className="title">Welcome to Firebase Authentication in Next.js!</h1>
-				<p className="description">Click on the Dashboard link to visit the dashboard page.</p>
+				<h1 className="title">Without being logged in this is just your static Page</h1>
+				<p className="description">Try to go to to the Logged In Page when you're not logged in</p>
+				<p className="description">Login and see what happens</p>
 				<div className="row">
 					<Link href="/dashboard">
 						<a className="card">
-							<h3>Go to Dashboard&rarr;</h3>
-							<p>Visit Dashboard</p>
+							<h3>Go to Logged In Page&rarr;</h3>
 						</a>
 					</Link>
 					<button onClick={handleSignIn}>Sign In using google</button>
