@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Head from '../components/head';
-import Nav from '../components/nav';
+
 import { auth, firebase } from '../firebase';
 
 function Home() {
@@ -33,8 +32,6 @@ function Home() {
 
 	return (
 		<div>
-			{/* <Head title="Home" />
-			<Nav /> */}
 			<div className="hero">
 				<h1 className="title">Without being logged in this is just your static Page</h1>
 				<p className="description">Try to go to to the Logged In Page when you're not logged in</p>

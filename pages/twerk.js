@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from '../components/nav';
+
 import withAuth from '../helpers/withAuth';
 import fetch from 'isomorphic-unfetch';
 import { auth, firebase } from '../firebase';
@@ -19,8 +19,6 @@ const Twerk = () => {
 
 	return (
 		<div>
-			{/* <Nav /> */}
-
 			<div className="wrapper_iframe">
 				<h3 className="center">Logged in Splash Page</h3>
 				<iframe
