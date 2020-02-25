@@ -2,6 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 import { auth, firebase } from '../firebase';
+import { Fragment } from 'react';
+import Nav from '../components/nav';
 
 function Home() {
 	function handleSignIn() {
@@ -31,7 +33,8 @@ function Home() {
 	}
 
 	return (
-		<div>
+		<Fragment>
+			<Nav />
 			<div className="hero">
 				<h1 className="title">Without being logged in this is just your static Page</h1>
 				<p className="description">Try to go to to the Logged In Page when you're not logged in</p>
@@ -92,7 +95,7 @@ function Home() {
 					color: #333;
 				}
 			`}</style>
-		</div>
+		</Fragment>
 	);
 }
 export default Home;
